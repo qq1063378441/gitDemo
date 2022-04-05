@@ -13,9 +13,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GitController {
 
-    @RequestMapping("hello")
-    public String aaa(){
+    @RequestMapping("/hello")
+    public String hello(){
         return "hello giteeee";
     }
+
+    @RequestMapping("/test")
+    public String test(){
+        return "hello test";
+    }
+
+
 
 }
