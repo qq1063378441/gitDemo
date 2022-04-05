@@ -15,7 +15,7 @@ public class GitController {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "hello giteeee";
+        return "<h1>hello giteeee</h1>";
     }
 
     @RequestMapping("/test")
