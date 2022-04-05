@@ -15,7 +15,7 @@ public class GitController {
 
     @RequestMapping("hello")
     public String aaa(){
-        return "hello gitee";
+        return "hello giteeee";
     }
 
 }
